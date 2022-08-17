@@ -1,0 +1,16 @@
+server:
+ port: 9200
+spring:
+ application:
+  CustomerMS
+cloud:
+ consul:
+  discovery:
+   hostname: localhost
+ config:
+  enabled: true
+  prefix: config
+  defaultContext: application
+  data-key: data
+  profileSeparator: ':'
+  format: YAML

@@ -1,0 +1,16 @@
+server:
+ port: 9400
+spring:
+ application:
+  ProductMS
+cloud:
+ consul:
+  discovery:
+   hostname: localhost
+ config:
+  enabled: true
+  prefix: config
+  defaultContext: application
+  data-key: data
+  profileSeparator: ':'
+  format: YAML

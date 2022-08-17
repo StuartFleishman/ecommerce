@@ -1,0 +1,16 @@
+server:
+ port: 9100
+spring:
+ application:
+  CartMS
+cloud:
+ consul:
+  discovery:
+   hostname: localhost
+ config:
+  enabled: true
+  prefix: config
+  defaultContext: application
+  data-key: data
+  profileSeparator: ':'
+  format: YAML

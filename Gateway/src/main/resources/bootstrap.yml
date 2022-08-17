@@ -1,0 +1,11 @@
+server:
+ port: 4000
+
+spring:
+ application:
+  name: Gateway
+ cloud:
+  consul:
+   host: localhost 
+  discovery:
+     health-check-url: http://localhost:${server.port}/actuator
