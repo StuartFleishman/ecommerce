@@ -19,7 +19,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import java.util.Set;
 
-@RequestMapping(value = "/cart")
+@RequestMapping(value = "/cart-api")
 @RestController
 @CrossOrigin
 @Validated
