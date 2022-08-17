@@ -1,7 +1,7 @@
 package com.ecommerce.customer.controller;
 
-import com.ekart.customer.dto.*;
-import com.ekart.customer.service.OrderService;
+import com.ecommerce.customer.dto.*;
+import com.ecommerce.customer.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;

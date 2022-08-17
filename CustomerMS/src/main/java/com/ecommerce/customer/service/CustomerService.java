@@ -1,6 +1,6 @@
 package com.ecommerce.customer.service;
 
-import com.ekart.customer.dto.CustomerDTO;
+import com.ecommerce.customer.dto.CustomerDTO;
 
 public interface CustomerService {
     CustomerDTO authenticateCustomer(String emailId, String password) throws Exception;

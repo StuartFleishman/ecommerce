@@ -1,6 +1,6 @@
 package com.ecommerce.cart.repository;
 
-import com.ekart.cart.entity.CustomerCart;
+import com.ecommerce.cart.entity.CustomerCart;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

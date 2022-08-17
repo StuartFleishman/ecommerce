@@ -1,9 +1,9 @@
 package com.ecommerce.customer.service;
 
-import com.ekart.customer.dto.*;
-import com.ekart.customer.entity.Order;
-import com.ekart.customer.entity.OrderedProduct;
-import com.ekart.customer.repository.OrderRepository;
+import com.ecommerce.customer.dto.*;
+import com.ecommerce.customer.entity.Order;
+import com.ecommerce.customer.entity.OrderedProduct;
+import com.ecommerce.customer.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;

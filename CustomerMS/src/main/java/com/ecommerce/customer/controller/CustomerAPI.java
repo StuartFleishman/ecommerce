@@ -1,10 +1,10 @@
 package com.ecommerce.customer.controller;
 
-import com.ekart.customer.dto.CartProductDTO;
-import com.ekart.customer.dto.CustomerCartDTO;
-import com.ekart.customer.dto.CustomerDTO;
-import com.ekart.customer.dto.ProductDTO;
-import com.ekart.customer.service.CustomerService;
+import com.ecommerce.customer.dto.CartProductDTO;
+import com.ecommerce.customer.dto.CustomerCartDTO;
+import com.ecommerce.customer.dto.CustomerDTO;
+import com.ecommerce.customer.dto.ProductDTO;
+import com.ecommerce.customer.service.CustomerService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;

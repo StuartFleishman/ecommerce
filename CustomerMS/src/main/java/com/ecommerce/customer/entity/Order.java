@@ -1,7 +1,7 @@
 package com.ecommerce.customer.entity;
 
-import com.ekart.customer.dto.OrderStatus;
-import com.ekart.customer.dto.PaymentThrough;
+import com.ecommerce.customer.dto.OrderStatus;
+import com.ecommerce.customer.dto.PaymentThrough;
 import lombok.Data;
 
 import javax.persistence.*;

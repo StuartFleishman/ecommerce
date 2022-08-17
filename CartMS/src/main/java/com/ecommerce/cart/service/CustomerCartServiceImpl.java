@@ -1,12 +1,12 @@
 package com.ecommerce.cart.service;
 
-import com.ekart.cart.dto.CartProductDTO;
-import com.ekart.cart.dto.CustomerCartDTO;
-import com.ekart.cart.dto.ProductDTO;
-import com.ekart.cart.entity.CartProduct;
-import com.ekart.cart.entity.CustomerCart;
-import com.ekart.cart.repository.CartProductRepository;
-import com.ekart.cart.repository.CustomerCartRepository;
+import com.ecommerce.cart.dto.CartProductDTO;
+import com.ecommerce.cart.dto.CustomerCartDTO;
+import com.ecommerce.cart.dto.ProductDTO;
+import com.ecommerce.cart.entity.CartProduct;
+import com.ecommerce.cart.entity.CustomerCart;
+import com.ecommerce.cart.repository.CartProductRepository;
+import com.ecommerce.cart.repository.CustomerCartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;

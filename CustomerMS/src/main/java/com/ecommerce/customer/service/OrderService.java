@@ -1,8 +1,8 @@
 package com.ecommerce.customer.service;
 
-import com.ekart.customer.dto.OrderDTO;
-import com.ekart.customer.dto.OrderStatus;
-import com.ekart.customer.dto.PaymentThrough;
+import com.ecommerce.customer.dto.OrderDTO;
+import com.ecommerce.customer.dto.OrderStatus;
+import com.ecommerce.customer.dto.PaymentThrough;
 
 import java.util.List;
 

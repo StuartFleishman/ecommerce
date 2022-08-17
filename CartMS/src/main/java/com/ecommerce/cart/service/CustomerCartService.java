@@ -1,7 +1,7 @@
 package com.ecommerce.cart.service;
 
-import com.ekart.cart.dto.CartProductDTO;
-import com.ekart.cart.dto.CustomerCartDTO;
+import com.ecommerce.cart.dto.CartProductDTO;
+import com.ecommerce.cart.dto.CustomerCartDTO;
 
 import java.util.Set;
 
